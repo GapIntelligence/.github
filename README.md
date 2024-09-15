@@ -1,58 +1,78 @@
 ![OpenBrand](https://github.com/user-attachments/assets/cd96108a-f2ac-4e8f-af3b-68660b3c3b44)
-# OpenBrand
 
-Welcome to the OpenBrand GitHub repository. OpenBrand was formed through the integration of industry-leading companies: Gap Intelligence, Deep.ad, Traqline, and Competitive Promotion Report. We are committed to bringing clarity to the market through superior data analytics, web crawling technology, and LLM-driven insights.
+# OpenBrand Internal Documentation
 
-**Official Website:** [openbrand.com](https://openbrand.com)
+Welcome to the internal repository for OpenBrand. This document outlines the detailed structure, development processes, and key information to ensure smooth collaboration and adherence to company standards.
 
-## About OpenBrand
+## Key Contacts
 
-OpenBrand combines the strengths of its predecessors:
-- **Gap Intelligence** - Industry insights and data-driven market research.
-- **Deep.ad** - Advanced advertising intelligence and analytics.
-- **Traqline** - Comprehensive market tracking and consumer insights.
-- **Competitive Promotion Report** - Detailed analysis of promotional activities across industries.
+- **Greg Munves** - CEO
+- **Kristopher Kubicki** - CTO
+- **Jason Mick** - Technology Manager
 
-Our mission is to empower businesses with the best data and insights, helping them make informed decisions in an ever-changing market landscape.
+For any issues or inquiries related to repository management or development, please contact the above personnel.
 
-## Contact
+## Company Structure and Key Codebases
 
-For inquiries related to this repository, please contact:
+### Gap Intelligence
+- **Primary Repositories**: GAPI (Gap API) layer, Gap Ecom layer
+- **Language**: Mostly Ruby (legacy code with some deprecated repos)
+- **Maintainer**: Tom Corelis
+- **Notes**: Most old Ruby repos are deprecated, but active development continues on the GAPI and Gap Ecom layers.
 
-- **Kristopher Kubicki**, CTO
-- **Jason Mick**, Technology Manager
+### Deep.ad
+- **Primary Repository**: Deep.ad Content Engine
+- **AWS**: Operates on its own AWS accounts
+- **Maintainer**: Huy "HT" Tong
 
-## Repository Access and Guidelines
+### Competitive Promotion Report
+- **Primary Components**: Main codebase, database processors, and schemas
+- **Background**: Originally built by a third-party developer
+- **Maintainer**: Bobby Mitchum
 
-- All development efforts from OpenBrand and its subsidiaries will flow through this central repository.
-- This repo is currently named **GapIntelligence** but will soon be renamed to **OpenBrand**.
-- All repositories must be created and approved through our helpdesk.
+### Traqline
+- **Primary Products**: HPOS, DurableIQ, SkuMetrix, FloorSight
+- **Languages**: Various, with a majority in PHP
+- **Maintainer**: Joshua Hill
 
-## Private Repository Access
+## Development Standards
 
-> **Note:** Access to certain sections of this repository may be restricted to authorized personnel only. If you have the correct permissions, please ensure you are logged in to view additional information relevant to ongoing projects and internal development documentation.
+1. **Coding Standards**: All code should adhere to standard programming practices and be well-documented.
+2. **Bots**: We use a range of bots, including subscriptions to Sweep.dev, Code Rabbit, and Amazon. Adding new bots requires prior approval.
+3. **Workflows**: Code should use GitHub workflows, incorporate testing, and follow our CI/CD pipeline guidelines.
+4. **Testing**: All code must pass tests before submitting a Pull Request (PR).
+5. **Branching Strategy**:
+   - PRs should be merged into a staging branch.
+   - After verification, merge the staging branch into the main branch (avoid using “master” branches).
+6. **CI/CD**: Repositories should be configured to include CI/CD processes, preferably with deployment to AWS. We are currently agnostic about IaaS tools.
 
-### How to Manage Public and Private Content
+## Repository Management
 
-To maintain both public and private documentation:
-- **Public README:** This README should be visible to all users and provides basic information about OpenBrand and contact details.
-- **Private README or Internal Documentation:** For internal documentation, create a separate file like `INTERNAL_README.md` or use GitHub's wiki feature to keep detailed information accessible only to team members with the appropriate permissions.
+- **Approval Process**: All new repositories, including public ones, require approval through our helpdesk: [Helpdesk Portal](https://deepad.atlassian.net/jira/servicedesk/projects/GAPHELP/queues/custom/37).
+- **Public Repositories**: Must be reviewed and approved prior to publishing.
+- **Deprecated Repositories**: Focus on maintaining new and actively developed repositories rather than older, deprecated ones.
 
-This setup allows you to maintain a clear public presence while safeguarding sensitive company information for internal use.
+## Security and Access Control
 
-## Contributing
+- **Access Management**: Only authorized personnel should have access to sensitive codebases and documentation. Ensure your GitHub account is set up with the correct permissions.
+- **Sensitive Data**: Follow company protocols for handling and storing sensitive information securely.
 
-We value contributions from our team. All contributions must align with company guidelines and be approved through our helpdesk process.
+## Onboarding and Development Environment
 
-- Submit your requests through the helpdesk for new repository creation or updates.
-- Follow internal coding standards and best practices.
+1. **Onboarding**: New developers should be granted access by their team lead and familiarize themselves with our development and deployment guidelines.
+2. **Development Tools**: Ensure you have the required tools, libraries, and access to repositories necessary for your work.
+3. **Setting Up**: Refer to internal setup guides for configuring your local environment to match our production and staging setups.
 
-## Getting Started
+## Compliance and Legal
 
-To get started with development, please ensure you have access to the necessary resources, including:
-- Internal development guides (accessible via the internal documentation).
-- Contact your team lead or the Technology Manager for any additional permissions.
+- **Compliance Requirements**: Adhere to all company compliance rules, including data privacy standards and legal obligations regarding code and data handling.
+- **Intellectual Property**: Respect all internal IP and proprietary technologies as outlined in your employment agreement.
+
+## Troubleshooting and Support
+
+- For support, contact your team lead or use the helpdesk for issues related to repository access, bug reports, or technical challenges.
+- Refer to our internal wiki or Slack channels for immediate troubleshooting steps.
 
 ---
 
-Thank you for contributing to OpenBrand's continued success!
+Thank you for your contributions to OpenBrand's ongoing success. Let’s keep our development standards high and continue delivering exceptional products!

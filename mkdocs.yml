@@ -1,0 +1,5 @@
+site_name: OpenBrand Docs
+nav:
+  - Home: README.md
+  - Profile: profile/README.md
+docs_dir: .

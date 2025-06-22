@@ -59,4 +59,6 @@ To get started with development, please ensure you have access to the necessary 
 
 ---
 
+For repository configuration details, see the [main README](../README.md).
+
 Thank you for contributing to OpenBrand's continued success!

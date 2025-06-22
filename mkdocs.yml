@@ -1,0 +1,5 @@
+site_name: OpenBrand Docs
+nav:
+  - Home: index.md
+  - Profile: profile.md
+docs_dir: docs

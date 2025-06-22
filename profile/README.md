@@ -3,6 +3,10 @@
 
 Welcome to the OpenBrand GitHub repository. OpenBrand was formed through the integration of industry-leading companies: Gap Intelligence, Deep.ad, Traqline, and Competitive Promotion Report. We are committed to bringing clarity to the market through superior data analytics, web crawling technology, and LLM-driven insights.
 
+![CI](https://github.com/GapIntelligence/.github/actions/workflows/ci.yml/badge.svg)
+[![codecov](https://codecov.io/gh/GapIntelligence/.github/graph/badge.svg?token=GQXX40CMBF)](https://codecov.io/gh/GapIntelligence/.github)
+
+
 **Official Website:** [openbrand.com](https://openbrand.com)
 
 ## About OpenBrand
@@ -54,5 +58,7 @@ To get started with development, please ensure you have access to the necessary 
 - Contact your team lead or the Technology Manager for any additional permissions.
 
 ---
+
+For repository configuration details, see the [main README](../README.md).
 
 Thank you for contributing to OpenBrand's continued success!

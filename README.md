@@ -8,6 +8,7 @@ This repository contains configuration files and documentation used by OpenBrand
 ## Documentation
 
 For an overview of the organization, visit the [profile README](profile/README.md).
+The MkDocs site is built from the files in the [`docs/`](docs/) directory.
 
 ## Development
 

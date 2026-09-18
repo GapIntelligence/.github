@@ -1,3 +1,6 @@
+> **Contribution flow:** `feature/* → staging → main`. Open normal PRs against `staging`.
+> See the [contribution and release guide](.github/CONTRIBUTING.md).
+
 # OpenBrand
 
 ![CI](https://github.com/GapIntelligence/.github/actions/workflows/ci.yml/badge.svg)

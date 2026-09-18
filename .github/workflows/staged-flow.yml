@@ -1,0 +1,43 @@
+name: Staged Flow
+
+on:
+  pull_request:
+    branches: ["staging", "main"]
+    types: [opened, synchronize, reopened, edited, ready_for_review]
+
+permissions: {}
+
+jobs:
+  route:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Verify staged PR route
+        env:
+          INTEGRATION_BRANCH: staging
+          RELEASE_BRANCH: main
+          FINAL_RELEASE_BRANCH: ""
+        shell: bash
+        run: |
+          python3 - <<'PYTHON'
+          import json
+          import os
+          from pathlib import Path
+
+          pr = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text())["pull_request"]
+          base = pr["base"]["ref"]
+          head = pr["head"]["ref"]
+          head_repo = (pr["head"].get("repo") or {}).get("full_name")
+          base_repo = pr["base"]["repo"]["full_name"]
+          integration = os.environ["INTEGRATION_BRANCH"]
+          release = os.environ["RELEASE_BRANCH"]
+          tail = os.environ.get("FINAL_RELEASE_BRANCH", "")
+
+          if base == integration:
+              print("Integration PR: complete the repository's required checks and review.")
+          else:
+              expected = integration if base == release else release if tail and base == tail else None
+              if expected is None or head != expected or head_repo != base_repo:
+                  raise SystemExit("Invalid release route: promote the integration branch from this repository; feature and fork PRs belong in staging/QA.")
+              print("Promotion route verified. CI, lower-environment evidence and release authorization remain required.")
+          PYTHON

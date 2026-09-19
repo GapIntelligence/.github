@@ -1,64 +1,32 @@
 ![OpenBrand](https://github.com/user-attachments/assets/cd96108a-f2ac-4e8f-af3b-68660b3c3b44)
-# OpenBrand
 
-Welcome to the OpenBrand GitHub repository. OpenBrand was formed through the integration of industry-leading companies: Gap Intelligence, Deep.ad, Traqline, and Competitive Promotion Report. We are committed to bringing clarity to the market through superior data analytics, web crawling technology, and LLM-driven insights.
+# OpenBrand Engineering
 
-![CI](https://github.com/GapIntelligence/.github/actions/workflows/ci.yml/badge.svg)
-[![codecov](https://codecov.io/gh/GapIntelligence/.github/graph/badge.svg?token=GQXX40CMBF)](https://codecov.io/gh/GapIntelligence/.github)
+OpenBrand provides market intelligence, competitive pricing, and consumer insights for brands and retailers. This is our official GitHub organization, where we share public tools and technical projects.
 
+Our repositories use the legacy **GapIntelligence** namespace. You are in the right place for OpenBrand.
 
-**Official Website:** [openbrand.com](https://openbrand.com)
+[Explore OpenBrand](https://openbrand.com) · [Contact us](mailto:info@openbrand.com)
 
-## About OpenBrand
+## The companies behind OpenBrand
 
-OpenBrand combines the strengths of its predecessors:
-- **Gap Intelligence** - Industry insights and data-driven market research.
-- **Deep.ad** - Advanced advertising intelligence and analytics.
-- **Traqline** - Comprehensive market tracking and consumer insights.
-- **Competitive Promotion Report** - Detailed analysis of promotional activities across industries.
+OpenBrand brings together the expertise of five businesses:
 
-Our mission is to empower businesses with the best data and insights, helping them make informed decisions in an ever-changing market landscape.
+- **Gap Intelligence** — Competitive intelligence and market research.
+- **Deep.ad** — AI-powered data collection and advertising intelligence.
+- **Competitive Promotion Report (CPR)** — Intelligence for health, beauty, and wellness markets.
+- **TraQ.line** — Market measurement and consumer insights for durable goods.
+- **Comperemedia** — Competitive marketing intelligence for financial services, insurance, telecom, and media.
 
-## Contact
+Gap Intelligence and Deep.ad combined in 2023, followed by the acquisitions of CPR and TraQ.line in 2024 and Comperemedia in 2026. [Read our story](https://openbrand.com/about).
 
-For inquiries related to this repository, please contact:
+## Explore our work
 
-- **Kristopher Kubicki**, CTO
-- **Jason Mick**, Technology Manager
+- **[DAR Schema](https://github.com/GapIntelligence/DAR-Schema)** — An extension of the HTTP Archive (HAR) format for recording web data collection, rendered pages, and extraction results.
+- **[Public repositories](https://github.com/orgs/GapIntelligence/repositories?type=public)** — Browse our published projects, infrastructure tools, and forks. Check each repository for its documentation and any applicable license before use.
 
-## Repository Access and Guidelines
+Some public repositories are legacy projects or forks. Repositories marked **Archived** are retained for reference and are read-only; consult each project's documentation before adopting it.
 
-- All development efforts from OpenBrand and its subsidiaries will flow through this central repository.
-- This repo is currently named **GapIntelligence** but will soon be renamed to **OpenBrand**.
-- All repositories must be created and approved through our helpdesk.
+## Questions and contributions
 
-## Private Repository Access
-
-> **Note:** Access to certain sections of this repository may be restricted to authorized personnel only. If you have the correct permissions, please ensure you are logged in to view additional information relevant to ongoing projects and internal development documentation.
-
-### How to Manage Public and Private Content
-
-To maintain both public and private documentation:
-- **Public README:** This README should be visible to all users and provides basic information about OpenBrand and contact details.
-- **Private README or Internal Documentation:** For internal documentation, create a separate file like `INTERNAL_README.md` or use GitHub's wiki feature to keep detailed information accessible only to team members with the appropriate permissions.
-
-This setup allows you to maintain a clear public presence while safeguarding sensitive company information for internal use.
-
-## Contributing
-
-We value contributions from our team. All contributions must align with company guidelines and be approved through our helpdesk process.
-
-- Submit your requests through the helpdesk for new repository creation or updates.
-- Follow internal coding standards and best practices.
-
-## Getting Started
-
-To get started with development, please ensure you have access to the necessary resources, including:
-- Internal development guides (accessible via the internal documentation).
-- Contact your team lead or the Technology Manager for any additional permissions.
-
----
-
-For repository configuration details, see the [main README](../README.md).
-
-Thank you for contributing to OpenBrand's continued success!
+For project-specific questions, bug reports, or contributions, follow the guidance in that repository. For company and partnership inquiries, visit [openbrand.com](https://openbrand.com) or email [info@openbrand.com](mailto:info@openbrand.com).

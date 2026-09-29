@@ -1,7 +1,7 @@
 # OpenBrand Documentation
 
-This site contains documentation about the OpenBrand organization.
+Public information about OpenBrand and its GitHub organization.
 
-For repository details, see the [main README](../README.md).
+Learn more on the [organization profile](profile.md), explore [public repositories](https://github.com/orgs/GapIntelligence/repositories?type=public), or visit [openbrand.com](https://openbrand.com).
 
-Learn more about our organization on the [profile page](profile.md).
+For documentation build instructions, see the [repository README](https://github.com/GapIntelligence/.github/blob/main/README.md).
